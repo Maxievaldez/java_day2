@@ -7,7 +7,7 @@ class StaMod {
     }
 
     public static void main(String args[]) {
-        // Creating objects
+
         StaMod obj1 = new StaMod();
         StaMod obj2 = new StaMod();
         StaMod obj3 = new StaMod();
