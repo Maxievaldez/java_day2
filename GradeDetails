@@ -1,12 +1,12 @@
 class GradeDetails {
     public static void main(String args[]) {
-        int marks = 85; // Enter the marks here
+        int marks = 85;
         char grade;
 
         if (marks >= 90) {
-            grade = 'O'; // Outstanding
+            grade = 'O';
         } else if (marks >= 80) {
-            grade = 'E'; // Excellent
+            grade = 'E';
         } else if (marks >= 70) {
             grade = 'A';
         } else if (marks >= 60) {
@@ -14,7 +14,7 @@ class GradeDetails {
         } else if (marks >= 50) {
             grade = 'C';
         } else {
-            grade = 'F'; // Fail
+            grade = 'F';
         }
 
         System.out.println("Marks: " + marks);
