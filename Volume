@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class Box {
+    int length, width, height;
+
+
+    void volume() {
+        int vol = length * width * height;
+        System.out.println("Volume of box = " + vol);
+    }
+}
+
+class Volume {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+
+        Box b = new Box();
+
+
+        System.out.print("Enter length: ");
+        b.length = sc.nextInt();
+
+        System.out.print("Enter width: ");
+        b.width = sc.nextInt();
+
+        System.out.print("Enter height: ");
+        b.height = sc.nextInt();
+        b.volume();
+    }
+}
