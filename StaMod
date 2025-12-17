@@ -1,0 +1,16 @@
+class StaMod {
+
+    static int count = 0;
+
+    StaMod() {
+        count++;
+    }
+
+    public static void main(String args[]) {
+        // Creating objects
+        StaMod obj1 = new StaMod();
+        StaMod obj2 = new StaMod();
+        StaMod obj3 = new StaMod();
+        System.out.println("Number of objects created = " + StaMod.count);
+    }
+}
