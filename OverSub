@@ -1,0 +1,27 @@
+class OverSub {
+
+    void subtract(int a, int b) {
+        System.out.println("Subtracting two integers: " + (a - b));
+    }
+
+    void subtract(int a, int b, int c) {
+        System.out.println("Subtracting three integers: " + (a - b - c));
+    }
+
+    void subtract(double a, double b) {
+        System.out.println("Subtracting two doubles: " + (a - b));
+    }
+
+    void subtract(float a, float b) {
+        System.out.println("Subtracting two floats: " + (a - b));
+    }
+
+    public static void main(String args[]) {
+        OverSub obj = new OverSub();
+
+        obj.subtract(10, 5);
+        obj.subtract(20, 5, 3);
+        obj.subtract(12.5, 7.5);
+        obj.subtract(8.5f, 3.2f);
+    }
+}
